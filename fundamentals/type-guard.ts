@@ -69,11 +69,11 @@ makeAnimalSound({ swim: () => console.log("Swimming") });
 makeAnimalSound({ fly: () => console.log("Flying") });
 
 // Truthiness narrowing
-function greet(name: string | null | undefine){
+function greet(name: string | null | undefined){
     if (name){
         console.log("Hello", ${name.toUppercase});
         else{
-            console.log("Hello, guest");
+            console.log("Hello,guest");
         }
     }
 }
