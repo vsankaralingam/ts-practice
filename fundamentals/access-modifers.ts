@@ -30,9 +30,10 @@ class person2 {
  protected ssm: string;
  firstName: string;
  lastName : string;
+     ssn: string;
  constructor(ssn:string, firstName:string, lastName:string){
-     this.ssn= ssn;
-     this.firstname =firstName;
+     this.ssn = ssn;
+     this.firstName =firstName;
      this.lastName = lastName;
  }
  getFULLName(): string{

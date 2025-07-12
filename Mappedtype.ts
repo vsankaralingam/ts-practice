@@ -9,11 +9,12 @@ console.log(squaredNumbers);
 interface User {
   id: number;
   name: string;
+  age: number;
 }
 
 const users: User[] = [
-  { id: 1, name: "Siva" },
-  { id: 2, name: "Sankara" },
+  { id: 1, name: "Siva" , age: 24},
+  { id: 2, name: "Sankara", age: 35},
 ];
 
 const userNames: string[] = users.map(user => user.name);
